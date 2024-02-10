@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: zoo
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8080/eureka}
+  instance:
+    preferIpAddress: true

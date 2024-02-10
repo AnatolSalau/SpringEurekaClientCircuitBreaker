@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: random-animal
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8080/eureka}
+  instance:
+    preferIpAddress: true
