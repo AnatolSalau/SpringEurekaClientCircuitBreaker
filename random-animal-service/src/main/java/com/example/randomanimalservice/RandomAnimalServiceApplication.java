@@ -10,6 +10,7 @@ public class RandomAnimalServiceApplication {
 
       public static void main(String[] args) {
             SpringApplication.run(RandomAnimalServiceApplication.class, args);
+
       }
 
 }

@@ -26,6 +26,9 @@ ext {
 }
 
 dependencies {
+    //import AnimalDto
+    implementation fileTree(include: ['*.jar'], dir: '../animal-ticket-dto-service/build/libs')
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     compileOnly 'org.projectlombok:lombok'
