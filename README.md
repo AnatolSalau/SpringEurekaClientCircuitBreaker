@@ -15,11 +15,17 @@ entrypoint:
     http://localhost:8080/eureka
 
 #### Zoo service
+entrypoint:
+
     http://127.0.0.1:8081/
 
 #### Random-animal service
+entrypoint:
+
     http://127.0.0.1:8082/
 
 #### Ticket service
+entrypoint:
+
     http://127.0.0.1:8083/
 
