@@ -18,15 +18,19 @@ entrypoint:
 #### Zoo service
 entrypoint:
 
-    http://127.0.0.1:8081/
+    http://127.0.0.1:8081/animals/any
+    http://127.0.0.1:8081/tickets/any
+    
 
 #### Random-animal service
 entrypoint:
 
     http://127.0.0.1:8082/
+    http://127.0.0.1:8092/
 
 #### Ticket service
 entrypoint:
 
     http://127.0.0.1:8083/
+    http://127.0.0.1:8093/
 

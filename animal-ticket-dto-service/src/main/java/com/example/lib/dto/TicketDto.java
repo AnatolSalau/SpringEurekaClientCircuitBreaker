@@ -1,4 +1,4 @@
 package com.example.lib.dto;
 
-public class TicketDto {
+public record TicketDto(String name) {
 }
